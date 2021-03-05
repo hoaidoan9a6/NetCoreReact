@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dWBpcEnRxukpWoKMvgK5t60qrAMUYM1vmHsqM/K3FPBLomIzGJvVUvQr8GCJDTBTw0XteL1p7LU1B8+QRrt8mw==",
+  "success": true,
+  "projectFilePath": "/Users/doanhoai/Desktop/Demo/Demo/Reactivitives/API/API.csproj",
+  "expectedPackageFiles": [
+    "/Users/doanhoai/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/doanhoai/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/doanhoai/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/doanhoai/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/doanhoai/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/doanhoai/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
