@@ -94,10 +94,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[5.0.3, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.3, )"

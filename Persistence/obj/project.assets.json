@@ -949,7 +949,6 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Domain >= 1.0.0",
-      "Microsoft.Data.Sqlite.Core >= 5.0.3",
       "Microsoft.EntityFrameworkCore >= 5.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.3"
     ]
@@ -995,10 +994,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": {
-            "target": "Package",
-            "version": "[5.0.3, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.3, )"
