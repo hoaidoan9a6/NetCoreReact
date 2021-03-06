@@ -21,17 +21,17 @@ namespace API
             
             using var scope = host.Services.CreateScope();
 
-            var sercives = scope.ServiceProvider;
+            var services = scope.ServiceProvider;
 
             try
             {
-                var context = sercives.GetRequiredService<DataContext>();
+                var context = services.GetRequiredService<DataContext>();
                 await context.Database.MigrateAsync();
                 await Seed.SeedData(context);
             }
             catch(Exception ex)
             {
-                var logger = sercives.GetRequiredService<ILogger<Program>>();
+                var logger = services.GetRequiredService<ILogger<Program>>();
                 logger.LogError(ex,"An error occured during migration");
             }
             
